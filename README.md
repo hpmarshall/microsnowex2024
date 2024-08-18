@@ -1,5 +1,7 @@
 # MicroSnowEx
 
+![Examples of snow microstructure tools (Proksch et al., 2015](figures/SMPmicroCT.png)
+
 ## Description
 
 SnowEx is a program designed to relate in-situ snow measurements to satellite so that we can assess snow physical properties and variability over a larger spatial and temporal resolution. Currently we are pretty limited in what we can quantify using optical and radar satellite imagery. Mainly, we are able to just see if snow is present (given the different reflectance and pixel brightness), but techniques for measuring snow mass remain limited, especially in the mountains. Given how variable snow is in the Western US, this necessitates the usage of snow assessment over the season and over a longer temporal record. The long-term objective with using snow microstructure (Micro-CT), and the primary objective of the 2020 SnowEx campaign, is 1) to test and validate snow water equivalant (SWE) retrieval from active and passive microwave sensors, and 2) to quantify variability within pixels of thermal infrared signatures to assess the value of kilometer-scale satellite infrared observations for snow energy balance modeling.
