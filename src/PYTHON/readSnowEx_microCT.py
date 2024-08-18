@@ -47,7 +47,7 @@ def readSnowEx_microCT(base_path, siteNums):
         
         # Store each variable's data into the dictionary
         for i, variable_name in enumerate(variable_names):
-            variable_name = str(variable_name) # ensure this is a string
+            variable_name = str(variable_name) # make sure the name is a string
             variable_name = variable_name.replace(' ', '_')  # Ensure valid dictionary key
             site_data[variable_name] = variable_data[i, :]
         

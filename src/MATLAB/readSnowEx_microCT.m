@@ -36,7 +36,7 @@ function data_microCT = readSnowEx_microCT(base_path, siteNums)
         site_fieldname = matlab.lang.makeValidName(['site_' site]);  % Ensure valid MATLAB variable name
         
         % Construct the full path to the CSV file
-        filename = fullfile(base_path, sprintf('SNEX20_GM_CTSM_%s_Analysis.csv', site));
+        filename = fullfile(base_path, sprintf('SNEX20_GM_CTSM_%s_Analysis.xlsx', site));
         
         % Read the CSV file into a table with correct data types
         opts = detectImportOptions(filename);
