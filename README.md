@@ -1,6 +1,8 @@
 # MicroSnowEx
 
-![Examples of snow microstructure tools (Proksch et al., 2015](figures/SMPmicroCT.png){width=100}
+<img src="figures/SMPmicroCT.png" width=50% height=50%>
+
+#![Examples of snow microstructure tools (Proksch et al., 2015](figures/SMPmicroCT.png){width=100}
 
 ## Description
 
