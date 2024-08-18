@@ -82,6 +82,8 @@ Python package for reading SMP data (https://pypi.org/project/snowmicropyn/)
 Picard, G., Löwe, H., Domine, F., Arnaud, L., Larue, F., Favier, V., et al. 
 (2022). The microwave snow grain size: A new concept to predict satellite observations over snow-covered regions. AGU Advances, 3, e2021AV000630. https://doi.org/10.1029/2021AV000630
 
+Proksch, Martin & Löwe, Henning & Schneebeli, Martin. (2015). Density, specific surface area and correlation length of snow measured by high-resolution penetrometry. Journal of Geophysical Research: Earth Surface. 120. 10.1002/2014JF003266. 
+
 ## Using Matlab Functions
 
 Within the Github, there are XX functions and XX corresponding codes that call in the functions and plot the data, as a first step to analsysis. The functions' jobs are to structure the data using information found in the filenames (i.e., site number, date of data collection, and file location where all of the data is saved to). For more help with using Matlab, Mathworks has a super helpful community and are open to any questions if you cannot already find the answer to your question(s): 
