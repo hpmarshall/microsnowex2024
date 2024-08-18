@@ -6,6 +6,12 @@ SnowEx is a program designed to relate in-situ snow measurements to satellite so
 
 This module is designed to provide participants with resources using the NSIDC data respository, along with data comparisons and analysis for 3-5 sites in Grand Mesa, CO in during the 2020 SnowEx campaign. These sites have overlapping microstructure, snow-pit, snow penetrometer (SMP), laser, and SWESARR brightness temperature, which make it an ideal first step to understanding the impact of microstructure on active and passive microwave airborne measurements.  This group will work with the SWESARR project to help provide them with microstructural information needed for radar retrieval.  This project builds on the 2021 SnowEx Hackweek project, "Microstructure".
 
+## Collaborators on this project
+* Sydney Baratta
+* H.P. Marshall
+* .....
+* anyone interested in pit observations related to microstructure
+
 ## Description of Data 
 ######  *(mainly pulled from NSIDC overviews)*
 
