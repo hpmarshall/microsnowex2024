@@ -1,7 +1,12 @@
 # MicroSnowEx
 
 <img src="figures/SMPmicroCT.png" width=50% height=50%>
-[Examples of snow microstructure tools (Proksch et al., 2015)]
+[Examples of snow microstructure tools](Proksch et al., 2015)]
+
+## Links to resources
+shared data in CryoCloud at this path: /shared-public/microsnowex2024
+
+[Google Drive for papers](https://drive.google.com/drive/folders/1Bwbb-bZ7OkfnnD5b2jXj1RuYSVqPw5Bz)
 
 ## Description
 
@@ -34,6 +39,9 @@ This is the "golden standard" method and a key component of this module (etc etc
 *NOTE:* SMP profiles were taken in a cross pattern around the central location, therefore there are numerous files per each site. It is recommended when downloading each file to use CTRL+F and search by site number to ensure no files are missed.
 
 **Laser:** This data set contains vertical profiles of snow reflectance, specific surface area (SSA), and spherical equivalent snow grain diameter. Data were collected during the SnowEx 2020 Grand Mesa, Colorado Intensive Observation Period between 27 January and 12 February 2020. Reflectance was measured at snow pits using one of two integrating sphere laser devices, IRIS (InfraRed IntegraXng Sphere) or IceCube. SSA and spherical equivalent diameter were then derived from reflectance.
+
+**Airborne lidar data**
+We will use airborne lidar data from Grand Mesa 2020 to aid in understanding the drivers of microstructure variability around the snowpits.  Airborne lidar was collected by NV5, and processed by ASO.
 
 **SWESARR brightness temperature:** 
 This data set contains airborne microwave brightness temperature observations from the Goddard Space Flight Center SWESARR (Snow Water Equivalent Synthetic Aperture Radar and Radiometer) instrument during the winter (10-12 February 2020) NASA SnowEx 2020 campaign at Grand Mesa, CO. Observations were made at three frequencies (10.65, 18.7, and 36.5 GHz; referred to as X, K, and Ka bands, respectively), at horizontal polarization with a nominal 45-degree look angle. 
@@ -71,18 +79,19 @@ This data set contains airborne microwave brightness temperature observations fr
 - [Snow Microstructure Data](https://nsidc.org/data/snex20_gm_ctsm/versions/1)
 - [Snow-Pit Data](https://nsidc.org/data/snex20_gm_sp/versions/1)
 - [Snow Penetrometer (SMP) Data](https://nsidc.org/data/snex20_smp/versions/1)
-- [Laser Data](https://nsidc.org/data/snex20_ssa/versions/1)
+- [Laser SSA Data](https://nsidc.org/data/snex20_ssa/versions/1)
+- [Airborne Lidar](https://nsidc.org/data/aso_3m_sd/versions/1)
 
 #### Microwave Radar
 - [SWESARR Brightness Temperature](https://nsidc.org/data/data-access-tool/SNEX20_SWESARR_TB/versions/1).
 
 ## Previous related project
-2021 SnowEx Hackweek Microstructure project (https://github.com/snowex-hackweek/microstructure)
+[2021 SnowEx Hackweek Microstructure project](https://github.com/snowex-hackweek/microstructure)
 
 ## Software
-Python package for reading SMP data (https://pypi.org/project/snowmicropyn/)
+[Python package for reading SMP data](https://pypi.org/project/snowmicropyn/)
 
-## Relevant papers (incomplete currently...)
+## Relevant papers (incomplete currently.  In project google drive)
 Picard, G., Löwe, H., Domine, F., Arnaud, L., Larue, F., Favier, V., et al. 
 (2022). The microwave snow grain size: A new concept to predict satellite observations over snow-covered regions. AGU Advances, 3, e2021AV000630. https://doi.org/10.1029/2021AV000630
 

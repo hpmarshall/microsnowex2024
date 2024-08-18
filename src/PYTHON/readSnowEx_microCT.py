@@ -60,4 +60,3 @@ def readSnowEx_microCT(base_path, siteNums):
 # base_path = '/path/to/your/data/'
 # siteNums = ['2S7', 'N13']
 # data = readSnowEx_microCT(base_path, siteNums)
-
