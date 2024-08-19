@@ -48,29 +48,27 @@ This data set contains airborne microwave brightness temperature observations fr
 
 ## Tasks
 
-#### 1. Load and parse all microstructural data from 3 locations on the Western end of the South line, where there is SWESARR radar data and microCT (Syndey has written MATLAB code for this)
+#### 1. Load and parse all microstructural data from 3 locations on the Western end of the South line, where there is SWESARR radar data and microCT (Syndey has written MATLAB code for this.  Also leverage SnowEx database!)
 
-#### 2. Convert Sydney's Matlab code to python.
+#### 2. Calculate SSA from SMP data using snowmicropyn,
 
-#### 3. Calculate SSA from SMP data using snowmicropyn,
+#### 3. Compare SSA from SMP to SSA from IceCube/IRIS.  Explore parameter optimization in the SMP retrieval of SSA to match IceCube/IRIS
 
-#### 4. Compare SSA from SMP to SSA from IceCube/IRIS.  Explore parameter optimization in the SMP retrieval of SSA to match IceCube/IRIS
+#### 4. Compare SSA from SMP and IceCube/IRIS to microCT.  Characterize accuracy of retrieval for SMP and IceCube/IRIS
 
-#### 5. Compare SSA from SMP and IceCube/IRIS to microCT.  Characterize accuracy of retrieval for SMP and IceCube/IRIS
+#### 5. Spatial analysis of SMP data around pit - characterize variability of bulk SSA, and SSA within layers.  Quantify variability of SSA.
 
-#### 6. Spatial analysis of SMP data around pit - characterize variability of bulk SSA, and SSA within layers.  Quantify variability of SSA.
+#### 6. Estimate density from SMP using snowmicropyn.  Quantify variability in density around each pit using SMP density estimates.
 
-#### 7. Estimate density from SMP using snowmicropyn.  Quantify variability in density around each pit using SMP density estimates.
+#### 7. Plot bulk average SSA spatially, for each SMP profile.  Add snow depth measurements around pit.  
 
-#### 8. Plot bulk average SSA spatially, for each SMP profile.  Add snow depth measurements around pit.  
+#### 8. Use airborne lidar data to quanitfy variability in snow depth and SWE around each pit.
 
-#### 9. Use airborne lidar data to quanitfy variability in snow depth and SWE around each pit.
+#### 9. Summarize SWE, depth, SSA around each pit with statistics (mean, median, variance, IQR), including plots spanning ~50m around each pit
 
-#### 10. Summarize SWE, depth, SSA around each pit with statistics (mean, median, variance, IQR), including plots spanning ~50m around each pit
+#### 10. Explore new approach to snow microstructure for radar, "polydispersity", from Picard paper.
 
-#### 11. Explore new approach to snow microstructure for radar, "polydispersity", from Picard paper.
-
-#### 12. Convert MATLAB code from work above into python (ongoing throughout project)
+#### 11. Convert MATLAB code from work above into python (ongoing throughout project)
 
 
 ## Resources for Data Download
