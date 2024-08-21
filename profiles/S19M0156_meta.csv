@@ -1,0 +1,75 @@
+# Exported by snowmicropyn 1.2.1 (git hash 25c665906cd9d26085fa9eab6ba842a7f4b41101)
+key,value
+recording_name,S19M0156
+recording_pntfile,profiles/S19M0156.PNT
+recording_timestamp,2024-03-25T16:45:18+00:00
+recording_latitude,39.01939392089844
+recording_longitude,-108.0538330078125
+recording_length,410.326429084409
+recording_samplecount,99300
+recording_spatialresolution,0.00413223123177886
+recording_overload,42
+recording_speed,20.0
+smp_serial,19
+smp_firmware,515
+smp_maxlength,1680
+smp_tipdiameter,5000
+smp_sensor_serial,9207 1116517
+smp_sensor_sensitivity,116
+smp_amplifier_serial,5030A 1764829
+pnt_SMP_FIRMWARE,515
+pnt_SAMPLES_COUNT,99300
+pnt_SAMPLES_SPATIALRES,0.00413223123177886
+pnt_SAMPLES_CONVFACTOR_FORCE,0.0013469827827066183
+pnt_SAMPLES_CONVFACTOR_PRESSURE,0.0
+pnt_SAMPLES_OFFSET_FORCE,0
+pnt_TIMESTAMP_YEAR,2024
+pnt_TIMESTAMP_MONTH,3
+pnt_TIMESTAMP_DAY,25
+pnt_TIMESTAMP_HOUR,16
+pnt_TIMESTAMP_MINUTE,45
+pnt_TIMESTAMP_SECOND,18
+pnt_GPS_CH1903_X,0.0
+pnt_GPS_CH1903_Y,0.0
+pnt_GPS_CH1903_Z,0.0
+pnt_BATTERY_VOLTAGE,1.234
+pnt_SAMPLES_SPEED,20.0
+pnt_LOOPSIZE,0
+pnt_WAYPOINTS,"(0, 0, 0, 0, 0, 0, 0, 0, 0, 0)"
+pnt_CAL_START,"(0, 0, 0, 0, 0, 0, 0, 0, 0, 0)"
+pnt_CAL_END,"(0, 0, 0, 0, 0, 0, 0, 0, 0, 0)"
+pnt_COMMENT_LENGTH,0
+pnt_COMMENT_CONTENT,"SMP5 developed by Michael Hohl, SLF Electronics, 16.03.2021"
+pnt_FILENAME,S19M0156
+pnt_GPS_WGS84_LATITUDE,39.01939392089844
+pnt_GPS_WGS84_LONGITUDE,108.0538330078125
+pnt_GPS_WGS84_HEIGHT,326118.0
+pnt_GPS_PDOP,1.2000000476837158
+pnt_GPS_WGS84_NORTH,N
+pnt_GPS_WGS84_EAST,W
+pnt_GPS_NUMSATS,19
+pnt_GPS_FIXMODE,3
+pnt_GPS_STATE,
+pnt_RESERVED1,0
+pnt_LOCAL_X,0
+pnt_LOCAL_Y,0
+pnt_LOCAL_Z,0
+pnt_LOCAL_THETA,0
+pnt_RESERVED2,"(63, 25, 153, 154, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)"
+pnt_SAMPLES_COUNT_FORCE,99300
+pnt_SAMPLES_COUNT_TEMP,0
+pnt_SENSOR_RANGE,5000
+pnt_AMPLIFIER_RANGE,5000
+pnt_SENSOR_SENSITIVITIY,116
+pnt_SENSOR_TEMPOFFSET,0
+pnt_SENSOR_HANDOP,0
+pnt_SMP_TIPDIAMETER,5000
+pnt_SENSOR_OVERLOAD,42
+pnt_SENSOR_TYPE,1
+pnt_AMPLIFIER_TYPE,1
+pnt_SMP_SERIAL,19
+pnt_SMP_LENGTH,1680
+pnt_RESERVED3,"(66, 232, 0, 0)"
+pnt_SENSOR_SERIAL,9207 1116517
+pnt_AMPLIFIER_SERIAL,5030A 1764829
+pnt_RESERVED4,"(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)"
