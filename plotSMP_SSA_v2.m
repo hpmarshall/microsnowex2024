@@ -1,5 +1,9 @@
+function plotSMP_SSA_v2(site)
+
 % lets load the derivatives, samples, and surf/ground picks
-site='2s7';
+%site='2S16';
+
+
 D=dir(['data/SMP/*' site '*_sg.csv']); % find the surf/ground picks
 for n=1:length(D);
     T=readtable(['data/SMP/' D(n).name])
@@ -40,7 +44,7 @@ end
 
 
 %% now lets compare to microCT
-T=readtable('data/microCT/microCT_pit2s7.csv')
+T=readtable(['data/microCT/microCT_pits' site '.csv'])
 figure(5);clf
 for n=1:3
      h1=plot(S(n).dist4/10,S(n).SSA_P2015,'r','linewidth',1); hold on
@@ -58,7 +62,7 @@ figure(5); hold on
 h3=plot(T.height_ave_cm_,SSA2,'g','linewidth',2)
 
 % lets load the IceCube data at this site
-f='data/SSA/DB_SSA_2S7.csv';
+f=['data/SSA/DB_SSA_' site '.csv'];
 T=readtable(f);
 SSA_IC=T.value;
 SSA_IC_depth=T.depth;
@@ -66,9 +70,9 @@ h4=plot(SSA_IC_depth,SSA_IC,'ko','linewidth',3,'markersize',10)
 set(gca,'LineWidth',2,'FontSize',14,'FontWeight','bold')
 xlabel('depth above ground [cm]')
 ylabel('SSA (m^2/kg)')
-title('Pit 2s7')
+title(['Pit: ' site])
 legend([h1 h2 h3(1) h4],'SMP high-res','microCT','SMP median','IceCube')
-
+print('-dpng',['SSAcompare_' site '.png'])
 
 
 
